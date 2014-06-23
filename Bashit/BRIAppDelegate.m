@@ -28,6 +28,8 @@
     
 }
 
+// http://www.linuxquestions.org/questions/programming-9/how-to-execute-bash-script-in-c-701229/
+
 #define LINE_BUFSIZE 128
 -(void)reallyExecuteIt:(NSString *)script {
     const char *c = [script UTF8String];
