@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EC190A1958D1CE0040AE55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EC19091958D1CE0040AE55 /* Cocoa.framework */; };
+		85EC19141958D1CE0040AE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EC19121958D1CE0040AE55 /* InfoPlist.strings */; };
+		85EC19161958D1CE0040AE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC19151958D1CE0040AE55 /* main.m */; };
+		85EC191A1958D1CE0040AE55 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85EC19181958D1CE0040AE55 /* Credits.rtf */; };
+		85EC191D1958D1CE0040AE55 /* BRIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC191C1958D1CE0040AE55 /* BRIAppDelegate.m */; };
+		85EC19201958D1CE0040AE55 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EC191E1958D1CE0040AE55 /* MainMenu.xib */; };
+		85EC19221958D1CE0040AE55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EC19211958D1CE0040AE55 /* Images.xcassets */; };
+		85EC19291958D1CE0040AE55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EC19281958D1CE0040AE55 /* XCTest.framework */; };
+		85EC192A1958D1CE0040AE55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EC19091958D1CE0040AE55 /* Cocoa.framework */; };
+		85EC19321958D1CE0040AE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EC19301958D1CE0040AE55 /* InfoPlist.strings */; };
+		85EC19341958D1CE0040AE55 /* BashitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC19331958D1CE0040AE55 /* BashitTests.m */; };
+		85EC193E1958D7640040AE55 /* script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 85EC193D1958D7440040AE55 /* script.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85EC192B1958D1CE0040AE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EC18FE1958D1CD0040AE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EC19051958D1CD0040AE55;
+			remoteInfo = Bashit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85EC19061958D1CE0040AE55 /* Bashit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bashit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EC19091958D1CE0040AE55 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		85EC190C1958D1CE0040AE55 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		85EC190D1958D1CE0040AE55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85EC190E1958D1CE0040AE55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85EC19111958D1CE0040AE55 /* Bashit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bashit-Info.plist"; sourceTree = "<group>"; };
+		85EC19131958D1CE0040AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EC19151958D1CE0040AE55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EC19171958D1CE0040AE55 /* Bashit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bashit-Prefix.pch"; sourceTree = "<group>"; };
+		85EC19191958D1CE0040AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		85EC191B1958D1CE0040AE55 /* BRIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRIAppDelegate.h; sourceTree = "<group>"; };
+		85EC191C1958D1CE0040AE55 /* BRIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRIAppDelegate.m; sourceTree = "<group>"; };
+		85EC191F1958D1CE0040AE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		85EC19211958D1CE0040AE55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85EC19271958D1CE0040AE55 /* BashitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BashitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EC19281958D1CE0040AE55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85EC192F1958D1CE0040AE55 /* BashitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BashitTests-Info.plist"; sourceTree = "<group>"; };
+		85EC19311958D1CE0040AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EC19331958D1CE0040AE55 /* BashitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BashitTests.m; sourceTree = "<group>"; };
+		85EC193D1958D7440040AE55 /* script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = script.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EC19031958D1CD0040AE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC190A1958D1CE0040AE55 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EC19241958D1CE0040AE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC192A1958D1CE0040AE55 /* Cocoa.framework in Frameworks */,
+				85EC19291958D1CE0040AE55 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EC18FD1958D1CD0040AE55 = {
+			isa = PBXGroup;
+			children = (
+				85EC190F1958D1CE0040AE55 /* Bashit */,
+				85EC192D1958D1CE0040AE55 /* BashitTests */,
+				85EC19081958D1CE0040AE55 /* Frameworks */,
+				85EC19071958D1CE0040AE55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EC19071958D1CE0040AE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EC19061958D1CE0040AE55 /* Bashit.app */,
+				85EC19271958D1CE0040AE55 /* BashitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EC19081958D1CE0040AE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EC19091958D1CE0040AE55 /* Cocoa.framework */,
+				85EC19281958D1CE0040AE55 /* XCTest.framework */,
+				85EC190B1958D1CE0040AE55 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85EC190B1958D1CE0040AE55 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EC190C1958D1CE0040AE55 /* AppKit.framework */,
+				85EC190D1958D1CE0040AE55 /* CoreData.framework */,
+				85EC190E1958D1CE0040AE55 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		85EC190F1958D1CE0040AE55 /* Bashit */ = {
+			isa = PBXGroup;
+			children = (
+				85EC191B1958D1CE0040AE55 /* BRIAppDelegate.h */,
+				85EC191C1958D1CE0040AE55 /* BRIAppDelegate.m */,
+				85EC191E1958D1CE0040AE55 /* MainMenu.xib */,
+				85EC19211958D1CE0040AE55 /* Images.xcassets */,
+				85EC19101958D1CE0040AE55 /* Supporting Files */,
+			);
+			path = Bashit;
+			sourceTree = "<group>";
+		};
+		85EC19101958D1CE0040AE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EC19111958D1CE0040AE55 /* Bashit-Info.plist */,
+				85EC19121958D1CE0040AE55 /* InfoPlist.strings */,
+				85EC19151958D1CE0040AE55 /* main.m */,
+				85EC19171958D1CE0040AE55 /* Bashit-Prefix.pch */,
+				85EC19181958D1CE0040AE55 /* Credits.rtf */,
+				85EC193D1958D7440040AE55 /* script.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85EC192D1958D1CE0040AE55 /* BashitTests */ = {
+			isa = PBXGroup;
+			children = (
+				85EC19331958D1CE0040AE55 /* BashitTests.m */,
+				85EC192E1958D1CE0040AE55 /* Supporting Files */,
+			);
+			path = BashitTests;
+			sourceTree = "<group>";
+		};
+		85EC192E1958D1CE0040AE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EC192F1958D1CE0040AE55 /* BashitTests-Info.plist */,
+				85EC19301958D1CE0040AE55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EC19051958D1CD0040AE55 /* Bashit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EC19371958D1CE0040AE55 /* Build configuration list for PBXNativeTarget "Bashit" */;
+			buildPhases = (
+				85EC19021958D1CD0040AE55 /* Sources */,
+				85EC19031958D1CD0040AE55 /* Frameworks */,
+				85EC19041958D1CD0040AE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bashit;
+			productName = Bashit;
+			productReference = 85EC19061958D1CE0040AE55 /* Bashit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85EC19261958D1CE0040AE55 /* BashitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EC193A1958D1CE0040AE55 /* Build configuration list for PBXNativeTarget "BashitTests" */;
+			buildPhases = (
+				85EC19231958D1CE0040AE55 /* Sources */,
+				85EC19241958D1CE0040AE55 /* Frameworks */,
+				85EC19251958D1CE0040AE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EC192C1958D1CE0040AE55 /* PBXTargetDependency */,
+			);
+			name = BashitTests;
+			productName = BashitTests;
+			productReference = 85EC19271958D1CE0040AE55 /* BashitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EC18FE1958D1CD0040AE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "BrindySoft.com Ltd";
+				TargetAttributes = {
+					85EC19261958D1CE0040AE55 = {
+						TestTargetID = 85EC19051958D1CD0040AE55;
+					};
+				};
+			};
+			buildConfigurationList = 85EC19011958D1CD0040AE55 /* Build configuration list for PBXProject "Bashit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85EC18FD1958D1CD0040AE55;
+			productRefGroup = 85EC19071958D1CE0040AE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EC19051958D1CD0040AE55 /* Bashit */,
+				85EC19261958D1CE0040AE55 /* BashitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EC19041958D1CD0040AE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC193E1958D7640040AE55 /* script.sh in Resources */,
+				85EC19141958D1CE0040AE55 /* InfoPlist.strings in Resources */,
+				85EC19221958D1CE0040AE55 /* Images.xcassets in Resources */,
+				85EC191A1958D1CE0040AE55 /* Credits.rtf in Resources */,
+				85EC19201958D1CE0040AE55 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EC19251958D1CE0040AE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC19321958D1CE0040AE55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EC19021958D1CD0040AE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC191D1958D1CE0040AE55 /* BRIAppDelegate.m in Sources */,
+				85EC19161958D1CE0040AE55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EC19231958D1CE0040AE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EC19341958D1CE0040AE55 /* BashitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85EC192C1958D1CE0040AE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EC19051958D1CD0040AE55 /* Bashit */;
+			targetProxy = 85EC192B1958D1CE0040AE55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85EC19121958D1CE0040AE55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EC19131958D1CE0040AE55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85EC19181958D1CE0040AE55 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EC19191958D1CE0040AE55 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		85EC191E1958D1CE0040AE55 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EC191F1958D1CE0040AE55 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		85EC19301958D1CE0040AE55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EC19311958D1CE0040AE55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85EC19351958D1CE0040AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		85EC19361958D1CE0040AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		85EC19381958D1CE0040AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashit/Bashit-Prefix.pch";
+				INFOPLIST_FILE = "Bashit/Bashit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85EC19391958D1CE0040AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashit/Bashit-Prefix.pch";
+				INFOPLIST_FILE = "Bashit/Bashit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		85EC193B1958D1CE0040AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bashit.app/Contents/MacOS/Bashit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashit/Bashit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BashitTests/BashitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		85EC193C1958D1CE0040AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bashit.app/Contents/MacOS/Bashit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashit/Bashit-Prefix.pch";
+				INFOPLIST_FILE = "BashitTests/BashitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EC19011958D1CD0040AE55 /* Build configuration list for PBXProject "Bashit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EC19351958D1CE0040AE55 /* Debug */,
+				85EC19361958D1CE0040AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EC19371958D1CE0040AE55 /* Build configuration list for PBXNativeTarget "Bashit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EC19381958D1CE0040AE55 /* Debug */,
+				85EC19391958D1CE0040AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85EC193A1958D1CE0040AE55 /* Build configuration list for PBXNativeTarget "BashitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EC193B1958D1CE0040AE55 /* Debug */,
+				85EC193C1958D1CE0040AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EC18FE1958D1CD0040AE55 /* Project object */;
+}
