@@ -17,10 +17,14 @@
 
 -(void)executeIt:(id)sender
 {
+    NSString *path = [[NSBundle mainBundle] resourcePath];
+    NSLog(@"path: %@", path);
     
     NSString *script = [[NSBundle mainBundle] pathForResource:@"script" ofType:@"sh"];
-    NSLog(@"%@", script);
+    NSLog(@"script: %@", script);
     
+    script = [NSString stringWithFormat:@"%@ %@", script, path];
+    NSLog(@"resolved: %@", script);
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         [self reallyExecuteIt:script];
@@ -56,6 +60,11 @@
     
     /* Once here, out of the loop, the script has ended. */
     int result = pclose(pipe); /* Close the pipe */
+    
+    
+//    [self appendToMyTextView:[NSString stringWithFormat:@"Executing:\n\n%@\n\n", script]];
+    
+//    int result = system(script.UTF8String);
     [self appendToMyTextView:[NSString stringWithFormat:@"script result: %d\n\n", result]];
 }
 

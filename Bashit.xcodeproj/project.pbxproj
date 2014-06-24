@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		856C78F4195A0F3C00F64ED9 /* other.sh in Resources */ = {isa = PBXBuildFile; fileRef = 856C78F3195A0E6300F64ED9 /* other.sh */; };
 		85EC190A1958D1CE0040AE55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EC19091958D1CE0040AE55 /* Cocoa.framework */; };
 		85EC19141958D1CE0040AE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EC19121958D1CE0040AE55 /* InfoPlist.strings */; };
 		85EC19161958D1CE0040AE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC19151958D1CE0040AE55 /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		856C78F3195A0E6300F64ED9 /* other.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = other.sh; sourceTree = "<group>"; };
 		85EC19061958D1CE0040AE55 /* Bashit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bashit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EC19091958D1CE0040AE55 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		85EC190C1958D1CE0040AE55 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -130,10 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				85EC19111958D1CE0040AE55 /* Bashit-Info.plist */,
-				85EC19121958D1CE0040AE55 /* InfoPlist.strings */,
-				85EC19151958D1CE0040AE55 /* main.m */,
 				85EC19171958D1CE0040AE55 /* Bashit-Prefix.pch */,
 				85EC19181958D1CE0040AE55 /* Credits.rtf */,
+				85EC19121958D1CE0040AE55 /* InfoPlist.strings */,
+				85EC19151958D1CE0040AE55 /* main.m */,
+				856C78F3195A0E6300F64ED9 /* other.sh */,
 				85EC193D1958D7440040AE55 /* script.sh */,
 			);
 			name = "Supporting Files";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856C78F4195A0F3C00F64ED9 /* other.sh in Resources */,
 				85EC193E1958D7640040AE55 /* script.sh in Resources */,
 				85EC19141958D1CE0040AE55 /* InfoPlist.strings in Resources */,
 				85EC19221958D1CE0040AE55 /* Images.xcassets in Resources */,
@@ -471,6 +475,7 @@
 				85EC19391958D1CE0040AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85EC193A1958D1CE0040AE55 /* Build configuration list for PBXNativeTarget "BashitTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				85EC193C1958D1CE0040AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

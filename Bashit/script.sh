@@ -8,3 +8,6 @@
 
 echo "Running a script!"
 
+sh $1/other.sh
+
+
